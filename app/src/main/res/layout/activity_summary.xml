@@ -26,16 +26,16 @@
 
     <TextView
         android:id="@+id/textViewSummary"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
-        android:textSize="18sp"
-        android:padding="12dp"
+        android:layout_width="380dp"
+        android:layout_height="219dp"
         android:gravity="start"
-        app:layout_constraintTop_toBottomOf="@id/textViewSummaryTitle"
-        app:layout_constraintStart_toStartOf="parent"
+        android:padding="12dp"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintBottom_toTopOf="@id/buttonConfirm"
-        app:layout_constraintVertical_bias="0.0"/>
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/buttonConfirm"
@@ -46,10 +46,10 @@
         android:textColor="#FFF"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.066"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.528" />
+        app:layout_constraintVertical_bias="0.555" />
 
     <Button
         android:id="@+id/buttonCancel"
@@ -60,9 +60,9 @@
         android:textColor="#FFF"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.94"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.528" />
+        app:layout_constraintVertical_bias="0.555" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
